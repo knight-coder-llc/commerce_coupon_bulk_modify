@@ -1,0 +1,15 @@
+commerce_coupon_bulk_modify.configuration:
+  path: '/admin/commerce/config/promotions'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Promotions'
+  requirements:
+    _permission: 'access commerce administration pages'
+
+commerce_coupon_bulk_modify.form:
+  path: '/admin/commerce/config/coupon-modifier'
+  defaults:
+    _form: '\Drupal\commerce_coupon_bulk_modify\Form\CouponModifierForm'
+    _title: 'Modify batch coupons'
+  requirements:
+    _permission: 'access_commerce_coupon_bulk_modify'

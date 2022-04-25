@@ -1,0 +1,7 @@
+name: Commerce Coupon Bulk Modify
+type: module
+description: 'Provides an interface to modify coupons usage, availability, and status.'
+package: Commerce
+core: 8.x
+dependencies:
+  - commerce_promotion

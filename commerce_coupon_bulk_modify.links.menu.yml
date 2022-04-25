@@ -1,0 +1,12 @@
+commerce_coupon_bulk_modify.configuration:
+  title: 'Modify'
+  route_name: 'commerce_coupon_bulk_modify.configuration'
+  parent: 'commerce.configuration'
+  weight: 1
+
+commerce_coupon_bulk_modify.commerce_coupon_bulk_modify_form:
+  title: 'Modify batch coupons'
+  parent: 'commerce_coupon_bulk_modify.configuration'
+  route_name: 'commerce_coupon_bulk_modify.form'
+  description: 'Modify coupons.'
+  weight: 1
